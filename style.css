@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+    height: 100px;
+    width: 100%;
+    background-color: green;
+    position: fixed;
+}
+
+#titulo {
+    margin-top: 0px;
+    text-align: center;
+}
