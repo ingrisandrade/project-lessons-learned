@@ -16,12 +16,16 @@ body {
 
 #menu {
   list-style-type: none;
+  position: absolute;
+  z-index: 2;
+  top: 40px;
 }
 
 a {
   color: rgb(55, 214, 206);
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
@@ -36,53 +40,53 @@ a:hover {
   margin: 40px;
   top: 110px;
   position: absolute;
-  z-index: 2;
+  z-index: 3;
 }
 
 #conteudo {
   padding: 0px 0px 0px 330px;
   position: absolute;
-  z-index: 3;
+  z-index: 4;
   top: 135px;
 }
 
 #percepcoes {
   position: absolute;
-  z-index: 4;
+  z-index: 5;
   top: 460px;
   left: 20px;
 }
 
 #texto_secundario {
   position: absolute;
-  z-index: 5;
+  z-index: 6;
   top: 520px;
   left: 20px;
 }
 
 #licoes {
   position: absolute;
-  z-index: 6;
+  z-index: 7;
   top: 740px;
   left: 20px;
 }
 
 #licoes_aprendidas {
   position: absolute;
-  z-index: 7;
+  z-index: 8;
   top: 810px;
 }
 
 #licoes_a_aprender {
   position: absolute;
-  z-index: 8;
+  z-index: 9;
   top: 810px;
   left: 250px;
 }
 
 #programar {
   position: absolute;
-  z-index: 9;
+  z-index: 10;
   top: 1060px;
 }
 
@@ -91,7 +95,7 @@ a:hover {
   width: 100%;
   background-color: rgb(143, 143, 143);
   position: absolute;
-  z-index: 10;
+  z-index: 11;
   top: 1160px;
 }
 
